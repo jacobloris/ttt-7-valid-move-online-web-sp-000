@@ -6,7 +6,7 @@ def valid_move?(board, index)
    true
    elsif(board[index] == nil)
    false
-   elsif(board[index] == ["X" || "O"]
+   elsif(board[index] == ["X" || "O"])
    false
  end 
 
