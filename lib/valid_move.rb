@@ -6,7 +6,9 @@ def valid_move(board, index)
    true
    elsif(board[index] == nil)
    false
-   elsif(board[index] == 
+   elsif(board[index] == ["X" || "O"]
+   false
+ end 
 
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
 def position_taken?(board, index)
